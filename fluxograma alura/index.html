@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <title>Aventura na ilha</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="imagem passo0.jpg" alt=""> 
+            <p>Um dia um amigo te fala sobre uma excursão para conhecer uma ilha distante cheia de mistérios, a ideia te anima então rapidamente decide ir. 
+                No tão esperado dia, é preciso escolher um guia turístico antes de prosseguir.</p>
+                <button class="btn-proximo" data-proximo="1">Guia terrestre</button>
+                <button class="btn-proximo" data-proximo="2">Guia aquático</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide conhecer as florestas, então logo se junta ao grupo de mesma escolha.
+                Logo no começo da expedição, um de seus guias diz que vocês podem escolher embarcar numa missão, e se tornarem guardiões da ilha.</p>
+                <button class="btn-proximo" data-proximo="3">Ouvir a história e tentar a missão</button>
+                <button class="btn-proximo" data-proximo="4">Seguir o passeio com o outro  guia, isso é conversa furada</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolhe conhecer as águas da ilha, como os oceanos e as cachoeiras, então segue em direção ao seu grupo. 
+                Logo no começo da expedição, um de seus guias diz que vocês podem escolher embarcar numa missão, e se tornarem guardiões da ilha.</p>
+                <button class="btn-proximo" data-proximo="5">Tentar a missão, não temos nada a perder</button>
+                <button class="btn-proximo" data-proximo="6">Continuar o passeio com o outro guia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O guia conta que existem duas forças essenciais para o equilibrio daqui, Kanaloa, responsável pelas águas, e Ibiacy responsável pelas florestas. Seu grupo passará pelas missões da guardiã Ibiacy, mas só um será escolhido.</p>
+                <button class="btn-proximo" data-proximo="7">Começar o desafio</button>
+        </div>
+        <div class="passo" id="passo-4">
+        <img src="imagem passo4.png" alt="">
+            <p>Você fica encantado com a beleza e diversidade das matas e dos animais, nunca tinha visto nada tão incrível, mas ao retornar para casa sempre se pergunta o que teria acontecido.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Antes de começar, o guia conta que na ilha existem duas forças essenciais para o equilibrio, Kanaloa, responsável pelas águas, e Ibiacy responsável pelas florestas. Seu grupo passará pelos desafios do guardião Kanaloa, não será uma tarefa fácil.</p>
+                <button class="btn-proximo" data-proximo="7">Tudo pronto para começar?</button>
+        </div>
+        <div class="passo" id="passo-6">
+        <img src="imagem passo6.png" alt="">
+        <p>A ilha é de fato fascinante, você nunca tinha visto nada assim, com certeza vai voltar para explorar mais se tiver oportunidade. Porém ainda se questiona se teria valido a pena ter ficado e ido na missão.</p>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>Você se dedica em todos os desafios, e mesmo estando um pouco cansado não perde o ritmo, foram três dias de muito foco. O guia te fez alguns elogios, parece que se saiu bem.
+            Agora é hora de saber quem serão os escolhidos.</p>
+            <button class="btn-proximo" data-proximo="8">Saber quem são os guardiões das terras</button>
+            <button class="btn-proximo" data-proximo="9">Saber quem são os guardiões das águas</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>No caminho até aqui você aprendeu muito, e descobriu que o nome de Ibiacy significa ‘terra fértil’, viu a diversidade da fauna e flora, então, mesmo se não passar, valeu a pena. 
+            O guia chega com um sorriso, feliz em anunciar que...</p>
+            <button class="btn-proximo" data-proximo="10">Ouvir a conclusão do guia</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Esse tempo fez muito bem pra você, te ensinou muito sobre a beleza e complexidade da vida marinha, mesmo se não for escolhido, esta feliz por ter chegado até aqui. Enfim, chega o guia sorridente com o resultado em mãos...</p>
+            <button class="btn-proximo" data-proximo="11">Ouvir o guia e descobrir se foi escolhido</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <img src="final.png" alt="">
+    <p>Depois de um belo discurso, finalmente você descobre que foi um dos escolhidos, sendo parabenizado por todos. Agora você tem o compromisso em se dedicar e preservar este lugar</p>
+</div>
+<div class="passo" id="passo-11">
+    <img src="final.png" alt="">
+<p>O guia fez um discurso perfeito, e em seguida anunciou, meus parabéns! você foi um dos escolhidos, é seu dever agora se dedicar e preservar este lugar.</p>
+</div>
+
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
